@@ -5,4 +5,5 @@ app_name = 'catalog'
 
 urlpatterns = [
     path('sfera/', views.sfera, name='sfera'),
+    path('contact/', views.contact, name='contact')
 ]
